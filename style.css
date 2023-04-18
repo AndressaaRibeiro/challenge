@@ -1,0 +1,214 @@
+/* GENERAL */
+
+*
+{
+    margin: 0px;
+    padding: 0;
+}
+
+body
+{
+    font-family:"Century Gothic",Arial,sans-serif;
+    font-size:1em;
+    color:rgb(90, 103, 103);
+    
+    
+}
+
+h1
+{
+    font-size:3em;
+    color:rgb(19, 13, 13);
+    text-align: center;
+
+    
+}
+
+section h2
+{
+    color:rgba(95, 85, 85, 0.837);
+    text-transform: uppercase;
+    font-size:2em;
+    text-align: center;
+    font-weight :normal;
+    margin-top: 50px;
+    line-height: 5px;
+    margin-bottom: 50px;
+}
+
+section h2 span {
+  position: justify;  
+}
+
+h3 
+{
+    font-size:1.5em;
+    text-transform: uppercase; 
+    text-align:center;
+}
+
+ul
+{
+    list-style:square;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+
+/* HEADER */
+
+header
+{
+    height: 120px;
+    background-color: #435459;
+}
+
+header nav {
+  text-align: right;
+  padding-right: 60px;
+}
+
+header nav ul li
+{
+    display:inline-block;
+    height: 100%;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    color: rgb(224, 217, 158);
+    display: block;
+    margin-top: 25px;
+    line-height: 70px;
+    padding: 0 10px;
+    transition-duration: 0.30s;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(224, 217, 158);
+    color: rgb(31, 145, 163);
+}
+
+
+
+/*about the history*/
+
+.about
+{
+height: 600px;
+background-size: cover;
+padding: 20px 0;
+}
+
+/*Royal family*/
+
+
+.family-member
+{
+      width: 250px;
+}
+
+.family-member img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+
+.family-member h3
+{
+    color: #0d2f38;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0d2f38; 
+}
+
+.family-member p
+{
+    color: #585f61;
+
+}
+
+
+
+
+/*board*/
+
+#board
+
+{
+    padding: 50px 0;
+}
+
+
+
+#board table{
+    
+    width: 900px;
+    margin: 50px auto 50px auto; 
+    
+    border-collapse:collapse;
+    border: 5px; solid rgb(238, 238, 238);
+    box-shadow: 0px 0px 10px rgba(154, 167, 39, 0.2);
+
+    text-align: center;
+    table-layout: fixed;
+    
+    border-bottom: 5px solid rgb(130,99,128);
+    border-right: 5px solid rgb(130,99,128);
+    border-left: 5px solid rgb(130,99,128);
+    border-top: 5px solid rgb(130,99,128);
+}
+
+.board table th {
+    
+    padding: 30px 30px;
+    border: 1px solid rgb(130, 99, 128);
+    background: #681f92;
+    color: rgb(223, 183, 216);
+    text-transform: uppercase;
+}
+
+.board table td{
+    
+    padding: 30px 30px;
+    border: 1px solid #0d2f38;
+}
+
+
+.board table tr:hover {
+    background: #a794ae;
+    
+}
+.board table tr:hover td {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+/* FOOTER */
+
+footer
+{
+    height:120px;
+    background-color:rgb(46,54,56);
+    
+}
+
+footer p
+{
+    text-align: center;
+    color: #fff;
+    
+    padding: 40px;
+}
+
+
+
+
